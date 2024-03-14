@@ -1,0 +1,123 @@
+
+.txt {
+    color: rgb(229, 203, 136);
+}
+
+a {
+    font-family: cursive;
+}
+
+#hotelname{
+    padding-top: 20px;
+    font-size: 50px;
+    color: rgb(229, 203, 136);
+}
+a:hover {
+    color: rgb(229, 203, 136);
+    border: 1px solid rgb(229, 203, 136);
+    border-radius: 5px;
+    margin: 0;
+    padding: 7px;
+}
+
+.texts {
+    padding: 50px 60px;
+    text-align: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: cursive;
+}
+
+.imgtxt {
+    width: 1050px;
+    height: 550px;
+    text-align: justify;
+    background-color: white;
+    border-radius: 2px;
+    margin: 30px 0 20px 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr {
+    border: 0;
+    margin: 0;
+    height: 2px;
+    background-color: rgb(229, 203, 136);
+}
+#right-image{
+    height: 500px;
+}
+
+footer{
+    background-image:url(/images/footer/footerimage.jpg) ;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-text{
+    padding: 7px;
+}
+footer{
+    color: rgb(229, 203, 136);
+}
+.col-lg-4{
+    text-align: center;
+}
+.mini-boxes{
+    border-radius: 50%;
+}
+
+.about-us-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width: 1400px) { 
+    .mini-box{
+        width: 90%;
+    } 
+}
+/* navbar links */
+.nav-link {
+    font-size: 20px;
+    color: rgb(229, 203, 136);   
+}
+/* navbar links hover properties */
+.nav-link:hover{
+    color: rgb(229, 203, 136);
+    font-weight: bold;
+    border: 1px solid  rgb(229, 203, 136);
+    border-radius: 5px;
+}
+
+/* active class on the navbar */
+.active a{
+    color: rgb(229, 203, 136);
+    border: 1px solid  rgb(229, 203, 136);
+}
+
+h1{
+    color: rgb(206, 182, 122); 
+}
+h2{
+    color: rgb(197, 174, 116); 
+}
+
+h5{
+    text-align: justify;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.contact-info{
+    text-align: center;
+    margin-top: 5px;
+    padding-right: 0px;
+}
+
+.contact-name{
+    color: black;
+}

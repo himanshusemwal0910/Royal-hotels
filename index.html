@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Royal Hotels</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    
+    <!-- custom css -->
+
+    <link rel="stylesheet" href="/css/bootstyle.css">
+</head>
+<body>
+
+    <!-- the contact infromation on top -->
+    <div class="alert alert-dark bg-dark text-light" role="alert">
+      <h5>contact us : +91 98765-43210 &nbsp; &nbsp; &nbsp;e-mail : royalhotel@gmail.com</h5>
+  </div>
+
+  <!-- the logo and hotel's name -->
+  <header class="text-center">
+      <img src="/images/logo/logo.png" class="rounded mx-auto d-inline " height="150px" alt="">
+      <h1 class="d-inline fs-1 fw-bolder" id="hotel-name">ROYAL HOTELS</h1>
+  </header>
+
+  <!-- navbar on the top that contains home,about us,etc. -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Thirteenth navbar example">
+    <div class="container-fluid">
+
+      <!-- the button that appears for responsiveness on small devices -->
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- the main navbar options/links -->
+      <div class="navbar-collapse d-lg-flex collapse justify-content-evenly w-100" id="navbarsExample11" >
+        <ul class="navbar-nav col-lg-6 justify-content-evenly w-100">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page"  href="indexboot.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="managebooking.html">Manage Booking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="contact.html">Contact Us</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   
+   <br>
+
+   <!-- the slider carasoule at the very top just after the navbar -->
+
+  <div class="slider">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/slidebar/Banner1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/slidebar/Banner2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/slidebar/Banner3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/slidebar/Banner4.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- the main container that contains every text and images -->
+  <div class="container-fluid">
+    <div class="row g-0 border rounded my-3  overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="d-flex">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h2 class="fs-3 fw-bold text-center m-0">WE THE ROYAL HOTELS</h2> <br>
+        <p class=" fs-5 " >
+          🌟 Welcome to Royal Hotels - Where Luxury Meets Exceptional Hospitality!
+          <br>
+          Step into a world of refined elegapplence and personalized service at Royal Hotels. Our luxurious
+          accommodations redefine sophistication, offering a harmonious blend of modern comfort and timeless style. From
+          plush furnishings to cutting-edge amenities, each detail is crafted to exceed your expectations.
+          <br>
+          Indulge in a culinary journey at our world-class restaurants, where gourmet delights await. Rejuvenate your
+          senses in our spa and fitness facilities, designed for ultimate relaxation and well-being. Whether for
+          business events or leisure escapes, our sophisticated venues cater to your every need.
+          <br>
+          Conveniently located in the heart of Dehradun, Rajpur Road, Royal Hotels provides easy access to key
+          attractions and business centers. Experience unparalleled hospitality with our dedicated staff, ensuring a
+          seamless and memorable stay.
+          <br>
+          Book your escape today and immerse yourself in a world where luxury knows no bounds. Your extraordinary
+          journey begins at Royal Hotels.
+          <br>
+          <br>
+          ✨ #LuxuryDefined #ExceptionalHospitality #BookNow
+        </p>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+        <img src="/images/rightimage/RightImage.jpg" id="right-image" class="img-fluid m-3" height="250px" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <!-- the second div after the WE THE ROYAL HOTELS -->
+  <div class="container-fluid mini-boxes album py-5 bg-body-tertiary w-100">
+    <div class="">
+      <div class="container">
+  
+        <!-- all the mini-boxes -->
+        <div class="row row-cols-1 row-cols-sm-2 my-3 row-cols-md-3 g-3">
+          <!-- first box (bedroom) -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/images/miniboxes/bedroom.jpg" class="mini-box my-3 rounded mx-auto d-block" height="250px" alt="...">
+              <div class="card-body">
+                <h2 class=" fw-bold text-center m-0">Our Bedrooms</h2> <br>
+                <p class="card-text">✨ Discover unparalleled comfort in our hotel bedrooms. Immerse yourself in luxury with plush bedding, stylish decor, and breathtaking views. Indulge in gourmet in-room dining and pamper yourself in spa-inspired bathrooms. Our secure, hassle-free environment ensures a worry-free stay, with high-speed connectivity for both work and leisure. Book now to experience a perfect blend of sophistication and relaxation at Royal Hotels. Sleeps that you will never be satisfied with. Your sanctuary awaits!<br> <br> #LuxuryLiving  #HotelComfort</p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- second box (balcony) -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/images/miniboxes/balcony.webp" class="mini-box image-fluid my-3 rounded mx-auto d-block" height="250px" alt="...">
+              <div class="card-body">
+                <h2 class=" fw-bold text-center m-0">Our Balconies</h2> <br>
+                <p class="card-text">🌆 Elevate Your Stay with Scenic Balconies at Royal Hotels! Experience a breathtaking escape as you step onto your private balcony overlooking Dehraun, Rajpur Road. Immerse yourself in the enchanting views of city lights or serene landscapes, creating an intimate retreat in the heart of luxury. Our thoughtfully designed balconies provide a seamless blend of comfort and aesthetics. Whether you're unwinding with a sunset cocktail or starting your day with a sunrise panorama. <br><br> 🌇 #BalconyViews #LuxuryEscape </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- third box (bathroom) -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/images/miniboxes/bathroom.webp" class="mini-box my-3 rounded mx-auto d-block" height="250px" alt="...">
+              <div class="card-body">
+                <h2 class=" fw-bold text-center m-0">Our Bathrooms</h2> <br>
+                <p class="card-text">🛁 Luxury Unveiled: Experience Opulent Bathrooms at Royal Hotels! Indulge in unparalleled relaxation with our spa-inspired bathrooms featuring rainfall showers, deep soaking tubs, and high-end amenities. Our commitment to exquisite design extends from stylish fixtures to plush towels, ensuring a lavish escape within your private sanctuary. Shower so clean will make you happy. Elevate your stay at Royal Hotels where every detail embodies comfort and sophistication. Book now for a retreat into opulence! <br> <br>#BathroomLuxury #IndulgeInComfort </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- fourth box (dinning) -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/images/miniboxes/dinning.jpg" class="mini-box my-3 rounded mx-auto d-block" height="250px" alt="...">
+              <div class="card-body">
+                <h2 class=" fw-bold text-center m-0">Our Dinnings</h2> <br>
+                <p class="card-text">Indulge in a culinary journey at our exquisite hotel! Savor delectable dishes crafted with passion and precision. From gourmet delights to local favorites, our diverse menu caters to every palate. Immerse yourself in an elegant ambiance, exceptional service, and unforgettable flavors. The best dinning you will ever find anywhere outside your house. Food will full be of delicacy. Dining with us is an experience worth savoring! <br><br> #Dinning #Eatwiththefamily </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- fifth box (kitchen) -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/images/miniboxes/kitchen.jpg" class="mini-box my-3 rounded mx-auto d-block" height="250px" alt="...">
+              <div class="card-body">
+                <h2 class=" fw-bold text-center m-0">Our Kitchens</h2> <br>
+                <p class="card-text ">Elevate your culinary experience in our hotel's state-of-the-art kitchen! Immerse yourself in a world of gastronomic delight where innovation meets tradition. Our skilled chefs curate a symphony of flavors using the finest ingredients. Unleash your taste buds in an environment that celebrates the art of cooking. Hygene is our priority. Food that'll make your stomach happy. Unforgettable culinary excellence awaits you! <br><br> #YummyFood #HygenicFood </p> 
+              </div>
+            </div>
+          </div>
+
+          <!-- sixth box (the swimming pool one) -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/images/miniboxes/swimmingpool.jpg" class="mini-box my-3 rounded mx-auto d-block" height="250px" alt="...">
+              <div class="card-body">
+                <h2 class=" fw-bold text-center m-0">Our Swimming Pools</h2> <br>
+                <p class="card-text">"Dive into luxury at our hotel's exquisite swimming pools! Immerse yourself in sheer indulgence as you soak up the sun beside our sparkling oasis. Our state-of-the-art pools offer a serene escape, surrounded by lush landscapes and breathtaking views.  From sunrise to sunset, experience unparalleled hospitality and leisure. Make a splash into unparalleled comfort and sophistication at our hotel. Your aquatic paradise awaits!" <br> <br> #swimmingpool #sunsetview</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- footer -->
+
+  <footer class="">
+    <div class="container">
+      <div class="footer-text d-flex align-items-center justify-content-center">
+
+        <h6 class="text-center">
+          
+          🌟 Discover Unrivaled Luxury at Royal Hotels. 🌟
+          <br>
+          Indulge in opulence and personalized service at our exquisite retreat. Your journey into refined elegance begins here. Book your stay for an unforgettable experience.
+        <br>
+        📞+91 98765-43210 | 💻royalhotels.com | 📍 Dehradun, Rajpur Road.
+        <br>
+        Follow us for updates:
+        📷 royalhotels | 🐦 royalhotel | 👍 Royal Hotel
+        <br>
+        #LuxuryDefined #ExceptionalHospitality #BookYourStayNo
+      </h6>
+    </div>
+      <br> <br>
+      <div class="d-flex align-items-center justify-content-center" id="copy"><h6>Copyright &copy; 1999-2023 Hotel.com. All rights reserved.</h6></div>
+      </footer>
+
+
+      <!-- javascript link added long with bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
